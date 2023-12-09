@@ -9,6 +9,7 @@ import Newproject from "./components/pages/Newproject";
 
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer'
+import Projects from "./components/pages/Projects";
 
 function App() {
 
@@ -22,6 +23,14 @@ function App() {
           element={
             <Container customClass="min-height">
               <Home />
+            </Container>
+          }
+        />
+        <Route
+          path="/projects"
+          element={
+            <Container customClass="min-height">
+              <Projects />
             </Container>
           }
         />
