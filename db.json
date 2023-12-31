@@ -1,39 +1,6 @@
 {
   "projects": [
     {
-      "name": "Projeto teste",
-      "budget": "2000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "name": "projeto teste 3",
-      "budget": "12000",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "teste 4",
-      "budget": "500",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
       "name": "teste10",
       "budget": "7000",
       "category": {
