@@ -13,10 +13,10 @@
     },
     {
       "name": "Agro Ecologia",
-      "budget": "30000",
+      "budget": "500",
       "category": {
-        "id": "4",
-        "name": "Planejamento"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
