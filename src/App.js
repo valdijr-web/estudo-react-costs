@@ -17,57 +17,17 @@ function App() {
   return (
     <Router>
       <Navbar/>
-
+      <Container customClass="min-height">
       <Routes>
-        <Route
-          path="/" exact
-          element={
-            <Container customClass="min-height">
-              <Home />
-            </Container>
-          }
-        />
-        <Route
-          path="/projects"
-          element={
-            <Container customClass="min-height">
-              <Projects />
-            </Container>
-          }
-        />
-        <Route
-          path="/contact"
-          element={
-            <Container customClass="min-height">
-              <Contact />
-            </Container>
-          }
-        />
-        <Route
-          path="/company"
-          element={
-            <Container customClass="min-height">
-              <Company />
-            </Container>
-          }
-        />
-        <Route
-          path="/newProject"
-          element={
-            <Container customClass="min-height">
-              <NewProject />
-            </Container>
-          }
-        />
-        <Route
-          path="/project/:id"
-          element={
-            <Container customClass="min-height">
-              <Project />
-            </Container>
-          }
-        />
+        <Route path="/" element={<Home />}/>
+        <Route path="/projects" element={<Projects />}/>
+        <Route path="/contact" element={<Contact />}/>
+        <Route path="/company" element={<Company />}/>
+        <Route path="/newProject" element={<NewProject />}/>
+        <Route path="/project/:id" element={<Project />}/>
       </Routes>
+      </Container>
+      
       <Footer/>
       
     </Router>
