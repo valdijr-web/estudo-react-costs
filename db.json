@@ -18,19 +18,13 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 330,
+      "cost": 200,
       "services": [
         {
-          "name": "Analise de solo",
-          "cost": "300",
-          "description": "Analisar solo da propriedade",
-          "id": "2b0a88ce-220c-403f-b485-b61cc4e96a53"
-        },
-        {
-          "name": "Contratar analista",
-          "cost": "30",
+          "name": "Novo serviço",
+          "cost": "200",
           "decription": "teste",
-          "id": "b6ad20e8-3d9e-4d97-8eb9-e2741c00f10a"
+          "id": "9a4f9cc3-4f05-48a4-9e88-3efe22edcbfb"
         }
       ],
       "id": 5
